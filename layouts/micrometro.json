@@ -23,16 +23,22 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.31999999999999973
+    "zoomFactor": 0.10999999999999956
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "medidaGerada",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
       "height": 1060,
-      "layer": "",
+      "layer": "FD",
       "locked": false,
       "name": "fundoQuadro",
       "persistentUuid": "1e739904-10b8-4d7d-bb1b-ffffad7bb4f7",
@@ -54,7 +60,7 @@
       "persistentUuid": "8ed80138-3414-4651-80fa-49f456bbfc81",
       "width": 700,
       "x": 600,
-      "y": 57,
+      "y": 67,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,7 +92,7 @@
       "persistentUuid": "b52f2c9c-4350-40af-a5f0-98b06a4e12e2",
       "width": 0,
       "x": 626,
-      "y": 77,
+      "y": 87,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,7 +139,7 @@
       "name": "btGM",
       "persistentUuid": "2cb94922-28c0-4343-a34c-ef17229adafc",
       "width": 80,
-      "x": 101,
+      "x": 100,
       "y": 290,
       "zOrder": 7,
       "numberProperties": [],
@@ -149,7 +155,7 @@
       "name": "btGMtxt",
       "persistentUuid": "2482120d-b3c1-4ee3-b039-bdd6aeb11f9f",
       "width": 0,
-      "x": 189,
+      "x": 190,
       "y": 312,
       "zOrder": 8,
       "numberProperties": [],
@@ -168,6 +174,262 @@
       "x": 1587,
       "y": 789,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": false,
+      "name": "btCorrigir",
+      "persistentUuid": "ca7a9f84-8c0e-4de9-ada3-a245648ddb8d",
+      "width": 80,
+      "x": 100,
+      "y": 404,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "btCorrigirTxt",
+      "persistentUuid": "823289ea-5630-455d-b776-9b6b1926f8b8",
+      "width": 0,
+      "x": 190,
+      "y": 420,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "medidaGeradaTXt",
+      "persistentUuid": "7505f7dd-5c1e-468f-ba85-29d568730860",
+      "width": 0,
+      "x": 1051,
+      "y": 86,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 542,
+      "layer": "",
+      "locked": false,
+      "name": "arcoMicrometro",
+      "persistentUuid": "153dccd5-a69d-49bb-85e2-1f21733b57b4",
+      "width": 528,
+      "x": 384,
+      "y": 430,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 123,
+      "layer": "",
+      "locked": false,
+      "name": "pinoArco",
+      "persistentUuid": "05801528-a080-4483-b38b-c1ef5c7d69f1",
+      "width": 87,
+      "x": 810,
+      "y": 474,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 146,
+      "layer": "",
+      "locked": false,
+      "name": "reguaBaseFundo",
+      "persistentUuid": "5d3ccc66-c613-423d-847e-0eb97137bc97",
+      "width": 550,
+      "x": 865,
+      "y": 437,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "locked": false,
+      "name": "Tambor",
+      "persistentUuid": "ed82874d-7ddc-4bae-867b-cd88cd010306",
+      "width": 557,
+      "x": 950,
+      "y": 410,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "txt025mm",
+      "persistentUuid": "d3a638dd-52a2-438c-b6ab-0537f033ca3c",
+      "width": 0,
+      "x": 462,
+      "y": 830,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "txt001mm",
+      "persistentUuid": "9172b7cd-eddb-4646-8446-65fe10f515cf",
+      "width": 0,
+      "x": 749,
+      "y": 830,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 614,
+      "layer": "",
+      "locked": false,
+      "name": "r1",
+      "persistentUuid": "7550ac6d-189e-42a2-9c9a-c91f19648ddf",
+      "width": 180,
+      "x": 951,
+      "y": 4,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 614,
+      "layer": "",
+      "locked": false,
+      "name": "r2",
+      "persistentUuid": "e477bd9b-92f0-4728-9094-3656962d8126",
+      "width": 180,
+      "x": 951,
+      "y": -609,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 500,
+      "layer": "UX",
+      "locked": false,
+      "name": "hidenct",
+      "persistentUuid": "6164260b-65bd-4974-a0ba-c9a5de530feb",
+      "width": 659,
+      "x": 912,
+      "y": -90,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 500,
+      "layer": "",
+      "locked": false,
+      "name": "hidenct",
+      "persistentUuid": "626e7027-a8f5-403a-93ce-6986191058bd",
+      "width": 659,
+      "x": 913,
+      "y": 610,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 614,
+      "layer": "",
+      "locked": false,
+      "name": "r3",
+      "persistentUuid": "b37f5e73-6536-48f9-be3e-3f86b3e4d7bf",
+      "width": 180,
+      "x": 951,
+      "y": -1220,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 31,
+      "layer": "",
+      "locked": false,
+      "name": "cBot",
+      "persistentUuid": "f62cd002-dea6-4350-a783-01e377ea8a0e",
+      "width": 73,
+      "x": 912,
+      "y": 583,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 33,
+      "layer": "",
+      "locked": false,
+      "name": "cTop",
+      "persistentUuid": "dd40642e-c0e4-46ea-9225-24a1b5cb0f08",
+      "width": 76,
+      "x": 912,
+      "y": 403,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -214,7 +476,7 @@
       ]
     },
     {
-      "name": "inputsResposta",
+      "name": "acertosErrosQtd",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -222,7 +484,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "inputs",
+          "name": "AcertosErros",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -231,7 +493,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "inputs-1.png",
+                  "image": "AcertosErros.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -253,7 +515,7 @@
       ]
     },
     {
-      "name": "acertosErrosQtd",
+      "name": "pinoArco",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -261,7 +523,293 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "AcertosErros",
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "PinoArco.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "arcoMicrometro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ArcoMicrometro.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "btGM",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press1a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press1b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press1a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "btGMtxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Gerar medida",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "name": "btCorrigir",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press3a.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press3b.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "press3a2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "btCorrigirTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Corrigir",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 74,
+        "g": 74,
+        "r": 74
+      }
+    },
+    {
+      "name": "inputsResposta",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "inputs",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -270,7 +818,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "AcertosErros.png",
+                  "image": "inputs-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -349,89 +897,23 @@
       }
     },
     {
-      "name": "btGM",
+      "bold": true,
+      "italic": false,
+      "name": "medidaGeradaTXt",
+      "smoothed": true,
       "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btGMPress14.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "BtGMPress23.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btGMPress13.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "string": "",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
     },
     {
       "bold": true,
@@ -453,23 +935,359 @@
       }
     },
     {
-      "bold": true,
+      "name": "reguaBaseFundo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ReguaBase_fundo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tambor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Tambor3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
       "italic": false,
-      "name": "btGMtxt",
+      "name": "txt001mm",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Gerar medida",
+      "string": "0,01 mm",
       "font": "",
-      "characterSize": 35,
+      "characterSize": 20,
       "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "txt025mm",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0 - 25  mm",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "r1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "r1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "r2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "r3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cTop",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "CantoTamborTop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hidenct",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cBot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cantoTamborBot.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -499,6 +1317,18 @@
           },
           "parameters": [
             "btGM",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "btCorrigir",
             "=",
             "0"
           ],
@@ -543,6 +1373,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -553,6 +1391,72 @@
               },
               "parameters": [
                 "btGM",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "randomNumber"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "medidaGeradaTXt",
+                    "=",
+                    "VariableString(medidaGerada)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btCorrigir",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btCorrigir",
                 "=",
                 "1"
               ],
@@ -594,6 +1498,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "UX",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": -2147483632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "FD",
       "visibility": true,
       "cameras": [],
       "effects": []

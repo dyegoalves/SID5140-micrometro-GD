@@ -40,33 +40,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "btGMPress13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "btGMPress13.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BtGMPress23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BtGMPress23.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "btGMPress14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "btGMPress14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "FundoQuadro.png",
         "kind": "image",
         "metadata": "",
@@ -91,6 +64,150 @@
         "name": "AcertosErros.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press3a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press3a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press3a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press3a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press3b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press3b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press1a.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press1a.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press1a2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press1a2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "press1b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "press1b.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArcoMicrometro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArcoMicrometro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PinoArco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PinoArco.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ReguaBase_fundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ReguaBase_fundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambor3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "r1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "r2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "r3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cantoTamborBot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cantoTamborBot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CantoTamborTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CantoTamborTop.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -104,7 +221,12 @@
       "referenceTo": "/layouts/micrometro"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/randomnumber"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
