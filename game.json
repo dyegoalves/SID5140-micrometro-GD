@@ -20,7 +20,7 @@
     "author": "Dyego Alves",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\dyego\\OneDrive\\Área de Trabalho\\micrometer",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -139,21 +139,48 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ReguaBase_fundo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ReguaBase_fundo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Tambor3.png",
         "kind": "image",
         "metadata": "",
         "name": "Tambor3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cantoTamborBot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cantoTamborBot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CantoTamborTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CantoTamborTop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -175,39 +202,57 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
+        "file": "btdir1.png",
         "kind": "image",
         "metadata": "",
-        "name": "NewObject-1.png",
+        "name": "btdir1.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "r3.png",
+        "file": "btdir2.png",
         "kind": "image",
         "metadata": "",
-        "name": "r3.png",
+        "name": "btdir2.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "cantoTamborBot.png",
+        "file": "btdir3.png",
         "kind": "image",
         "metadata": "",
-        "name": "cantoTamborBot.png",
+        "name": "btdir3.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "CantoTamborTop.png",
+        "file": "btdir12.png",
         "kind": "image",
         "metadata": "",
-        "name": "CantoTamborTop.png",
+        "name": "btdir12.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btdir13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btdir13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image202.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

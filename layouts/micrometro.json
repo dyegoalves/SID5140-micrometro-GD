@@ -23,9 +23,36 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.10999999999999956
+    "zoomFactor": 0.4299999999999999
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "movTambor",
+      "objects": [
+        {
+          "name": "Tambor"
+        },
+        {
+          "name": "cTop"
+        },
+        {
+          "name": "r1"
+        },
+        {
+          "name": "r2"
+        },
+        {
+          "name": "avancarTambor"
+        },
+        {
+          "name": "voltaTambor"
+        },
+        {
+          "name": "cBot"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "medidaGerada",
@@ -39,13 +66,13 @@
       "customSize": true,
       "height": 1060,
       "layer": "FD",
-      "locked": false,
+      "locked": true,
       "name": "fundoQuadro",
       "persistentUuid": "1e739904-10b8-4d7d-bb1b-ffffad7bb4f7",
       "width": 1900,
-      "x": 9,
-      "y": 9,
-      "zOrder": 1,
+      "x": 11,
+      "y": 10,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -55,12 +82,12 @@
       "customSize": true,
       "height": 200,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "inputsResposta",
       "persistentUuid": "8ed80138-3414-4651-80fa-49f456bbfc81",
       "width": 700,
       "x": 600,
-      "y": 67,
+      "y": 53,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,12 +98,12 @@
       "customSize": true,
       "height": 220,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "acertosErrosQtd",
       "persistentUuid": "b8ec65c5-e4de-4339-aa65-886bc5f03903",
       "width": 288,
       "x": 1549,
-      "y": 777,
+      "y": 765,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,12 +114,12 @@
       "customSize": false,
       "height": 0,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "encontreAmedidaTxt",
       "persistentUuid": "b52f2c9c-4350-40af-a5f0-98b06a4e12e2",
       "width": 0,
       "x": 626,
-      "y": 87,
+      "y": 73,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -103,12 +130,12 @@
       "customSize": false,
       "height": 0,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "errosqtdTxt",
       "persistentUuid": "420c387e-5cd6-4849-a564-82056a19d7dd",
       "width": 0,
       "x": 1580,
-      "y": 904,
+      "y": 892,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,12 +146,12 @@
       "customSize": false,
       "height": 0,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "acertosqtdTxt",
       "persistentUuid": "fc1c990b-c182-49b9-b78b-10d9e3740e38",
       "width": 0,
       "x": 1580,
-      "y": 848,
+      "y": 836,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -135,12 +162,12 @@
       "customSize": true,
       "height": 80,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "btGM",
       "persistentUuid": "2cb94922-28c0-4343-a34c-ef17229adafc",
       "width": 80,
-      "x": 100,
-      "y": 290,
+      "x": 119,
+      "y": 81,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,12 +178,12 @@
       "customSize": false,
       "height": 0,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "btGMtxt",
       "persistentUuid": "2482120d-b3c1-4ee3-b039-bdd6aeb11f9f",
       "width": 0,
-      "x": 190,
-      "y": 312,
+      "x": 209,
+      "y": 103,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,12 +194,12 @@
       "customSize": false,
       "height": 0,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "acertosErrosTxt",
       "persistentUuid": "34d4ea33-6900-432a-a49f-c32c88730f4e",
       "width": 0,
       "x": 1587,
-      "y": 789,
+      "y": 777,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -182,13 +209,13 @@
       "angle": 0,
       "customSize": true,
       "height": 80,
-      "layer": "",
-      "locked": false,
+      "layer": "UX",
+      "locked": true,
       "name": "btCorrigir",
       "persistentUuid": "ca7a9f84-8c0e-4de9-ada3-a245648ddb8d",
       "width": 80,
-      "x": 100,
-      "y": 404,
+      "x": 119,
+      "y": 195,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,13 +225,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "locked": false,
+      "layer": "UX",
+      "locked": true,
       "name": "btCorrigirTxt",
       "persistentUuid": "823289ea-5630-455d-b776-9b6b1926f8b8",
       "width": 0,
-      "x": 190,
-      "y": 420,
+      "x": 209,
+      "y": 211,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,15 +239,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 46,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "medidaGeradaTXt",
       "persistentUuid": "7505f7dd-5c1e-468f-ba85-29d568730860",
-      "width": 0,
-      "x": 1051,
-      "y": 86,
+      "width": 188,
+      "x": 1082,
+      "y": 67,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,12 +258,12 @@
       "customSize": true,
       "height": 542,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "arcoMicrometro",
       "persistentUuid": "153dccd5-a69d-49bb-85e2-1f21733b57b4",
       "width": 528,
-      "x": 384,
-      "y": 430,
+      "x": 314,
+      "y": 459,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,12 +274,12 @@
       "customSize": true,
       "height": 123,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "pinoArco",
       "persistentUuid": "05801528-a080-4483-b38b-c1ef5c7d69f1",
       "width": 87,
-      "x": 810,
-      "y": 474,
+      "x": 740,
+      "y": 503,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,14 +288,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 146,
+      "height": 150,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "reguaBaseFundo",
       "persistentUuid": "5d3ccc66-c613-423d-847e-0eb97137bc97",
-      "width": 550,
-      "x": 865,
-      "y": 437,
+      "width": 580,
+      "x": 815.7999877929688,
+      "y": 465,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,28 +306,49 @@
       "customSize": true,
       "height": 200,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "Tambor",
       "persistentUuid": "ed82874d-7ddc-4bae-867b-cd88cd010306",
-      "width": 557,
-      "x": 950,
-      "y": 410,
-      "zOrder": 15,
+      "width": 596,
+      "x": 883,
+      "y": 438,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "velTambor",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "velRegua",
+          "type": "number",
+          "value": 60
+        },
+        {
+          "name": "posr1r2",
+          "type": "number",
+          "value": 598
+        },
+        {
+          "name": "divDesvio",
+          "type": "number",
+          "value": 19.9
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "txt025mm",
       "persistentUuid": "d3a638dd-52a2-438c-b6ab-0537f033ca3c",
       "width": 0,
-      "x": 462,
-      "y": 830,
+      "x": 392,
+      "y": 859,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,12 +359,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "txt001mm",
       "persistentUuid": "9172b7cd-eddb-4646-8446-65fe10f515cf",
       "width": 0,
-      "x": 749,
-      "y": 830,
+      "x": 679,
+      "y": 859,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,30 +373,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 614,
+      "height": 600,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "r1",
       "persistentUuid": "7550ac6d-189e-42a2-9c9a-c91f19648ddf",
-      "width": 180,
-      "x": 951,
-      "y": 4,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 614,
-      "layer": "",
-      "locked": false,
-      "name": "r2",
-      "persistentUuid": "e477bd9b-92f0-4728-9094-3656962d8126",
-      "width": 180,
-      "x": 951,
-      "y": -609,
+      "width": 150,
+      "x": 883,
+      "y": 45,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,14 +389,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 500,
+      "height": 600,
+      "layer": "",
+      "locked": true,
+      "name": "r2",
+      "persistentUuid": "e477bd9b-92f0-4728-9094-3656962d8126",
+      "width": 150,
+      "x": 883,
+      "y": -554,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 715,
       "layer": "UX",
-      "locked": false,
+      "locked": true,
       "name": "hidenct",
       "persistentUuid": "6164260b-65bd-4974-a0ba-c9a5de530feb",
-      "width": 659,
-      "x": 912,
-      "y": -90,
+      "width": 2417,
+      "x": 60,
+      "y": -276,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -373,15 +421,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 500,
-      "layer": "",
-      "locked": false,
+      "height": 738,
+      "layer": "UX",
+      "locked": true,
       "name": "hidenct",
       "persistentUuid": "626e7027-a8f5-403a-93ce-6986191058bd",
-      "width": 659,
-      "x": 913,
-      "y": 610,
-      "zOrder": 20,
+      "width": 1200,
+      "x": 845,
+      "y": 637,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -389,30 +437,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 614,
+      "height": 35,
       "layer": "",
-      "locked": false,
-      "name": "r3",
-      "persistentUuid": "b37f5e73-6536-48f9-be3e-3f86b3e4d7bf",
-      "width": 180,
-      "x": 951,
-      "y": -1220,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 31,
-      "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "cBot",
       "persistentUuid": "f62cd002-dea6-4350-a783-01e377ea8a0e",
-      "width": 73,
-      "x": 912,
-      "y": 583,
+      "width": 85,
+      "x": 841,
+      "y": 613,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -423,13 +455,173 @@
       "customSize": true,
       "height": 33,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "cTop",
       "persistentUuid": "dd40642e-c0e4-46ea-9225-24a1b5cb0f08",
-      "width": 76,
-      "x": 912,
-      "y": 403,
+      "width": 81,
+      "x": 841,
+      "y": 433,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 722,
+      "layer": "UX",
+      "locked": true,
+      "name": "hidenct",
+      "persistentUuid": "15a4f4ad-2600-4aec-bfea-84e4b4d19b31",
+      "width": 443,
+      "x": 1839,
+      "y": 143,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": true,
+      "name": "debug",
+      "persistentUuid": "4016a77c-7be4-446a-9d0f-9335df0286f9",
+      "width": 0,
+      "x": 424,
+      "y": 322,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 59,
+      "layer": "",
+      "locked": true,
+      "name": "toqueAvancar",
+      "persistentUuid": "ec589b16-1e25-4b08-8c3d-0856cd00982d",
+      "width": 1911,
+      "x": 10,
+      "y": 1263,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": true,
+      "name": "medicaoTxt",
+      "persistentUuid": "3f55b482-0410-4990-95ff-c5f0bb19b713",
+      "width": 0,
+      "x": 623,
+      "y": 187,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 46,
+      "layer": "UX",
+      "locked": true,
+      "name": "medicaoVal",
+      "persistentUuid": "8f3c10bb-f5c9-405d-9296-fe83abf6579c",
+      "width": 189,
+      "x": 1082,
+      "y": 186,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": true,
+      "name": "voltaTambor",
+      "persistentUuid": "6bb09929-37b4-401a-b41c-a461236ea0eb",
+      "width": 80,
+      "x": 1200,
+      "y": 446,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": true,
+      "name": "avancarTambor",
+      "persistentUuid": "bdf99620-f0ca-463e-82ed-8a283f3855f1",
+      "width": 80,
+      "x": 1200,
+      "y": 550,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "UX",
+      "locked": true,
+      "name": "reduzir",
+      "persistentUuid": "5c99a5a2-2a73-41c4-a7e2-c71953ba49f8",
+      "width": 80,
+      "x": 1083,
+      "y": 909,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "UX",
+      "locked": true,
+      "name": "zoom",
+      "persistentUuid": "3d10d186-96f0-42d9-ab9e-29022faee3d3",
+      "width": 80,
+      "x": 951,
+      "y": 907,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": true,
+      "name": "toqueVoltar",
+      "persistentUuid": "efd2c897-6ba5-41f8-91f9-7adf393b834a",
+      "width": 1970,
+      "x": -37,
+      "y": -625,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -880,6 +1072,44 @@
     {
       "bold": false,
       "italic": false,
+      "name": "medicaoTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Medicao do Micrometro : ",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "medicaoVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "encontreAmedidaTxt",
       "smoothed": true,
       "tags": "",
@@ -943,16 +1173,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "FundoReguaBaseEscala2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ReguaBase_fundo.png",
+                  "image": "image202.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -981,8 +1211,22 @@
       "variables": [],
       "behaviors": [
         {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 100,
+          "canGrabPlatforms": false,
+          "deceleration": 2000,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 0,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 0,
+          "maxFallingSpeed": 0,
+          "maxSpeed": 50,
+          "roundCoordinates": false,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
         }
       ],
       "animations": [
@@ -1064,12 +1308,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "r1",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -1103,55 +1347,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "r2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
                   "image": "r2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "r3",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "r3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1217,7 +1422,15 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1288,6 +1501,606 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "debug",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "toqueVoltar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "toqueAvancar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reduzir",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "zoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "avancarTambor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "voltaTambor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "btdir1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "vel10x",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "10x - Rápida",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "vel5x",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "5x - Média",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "vel1x",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "1x - Normal",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "txtTituloVelocidadeTambor",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Velocidade do Tambor: ",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "mVel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "1X",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1297,64 +2110,871 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMACAO DOS BOTOES",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btGM",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btCorrigir",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "avancarTambor",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "voltaTambor",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btGM",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "btGM",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "randomNumber"
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "medidaGeradaTXt",
+                        "=",
+                        "VariableString(medidaGerada)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "btCorrigir",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "btCorrigir",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "voltaTambor",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "voltaTambor",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "name": "MEDICAO DO TAMBOR",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "btGM",
-            "=",
-            "0"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "medicaoVal",
+                "=",
+                "SubStr(ToString((Tambor.X() - 883)/Tambor.Variable(divDesvio)),0,4)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug",
+                "=",
+                "SubStr(ToString((Tambor.X() - 883)/Tambor.Variable(divDesvio)),0,4)"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "btCorrigir",
-            "=",
-            "0"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "avancarTambor",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "avancarTambor",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "movTambor",
+                "Tambor.Variable(velTambor)",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "r1",
+                "0",
+                "Tambor.Variable(velRegua)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "r2",
+                "0",
+                "Tambor.Variable(velRegua)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "voltaTambor",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "medicaoVal",
+                ">",
+                "\"0\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "voltaTambor",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "movTambor",
+                "-Tambor.Variable(velTambor)",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "r1",
+                "0",
+                "-Tambor.Variable(velRegua)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "r2",
+                "0",
+                "-Tambor.Variable(velRegua)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "medicaoVal",
+                "<=",
+                "\"0\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "medicaoVal",
+                "=",
+                "\"0\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "REGUA TAMBOR",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "r1",
+                    "toqueAvancar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "r1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "r3",
+                    "r1",
+                    "r2.X()",
+                    "r2.Y()-Tambor.Variable(posr1r2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "19"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "600"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "r2",
+                    "toqueAvancar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "r2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "r3",
+                    "r2",
+                    "r1.X()",
+                    "r1.Y()-Tambor.Variable(posr1r2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "19"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "600"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "r2",
+                    "toqueVoltar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "r2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "r3",
+                    "r2",
+                    "r1.X()",
+                    "r1.Y()+Tambor.Variable(posr1r2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "19"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "r2",
+                    "=",
+                    "600"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "r1",
+                    "toqueVoltar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "r1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "r3",
+                    "r1",
+                    "r2.X()",
+                    "r2.Y()+Tambor.Variable(posr1r2)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "19"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "150"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "r1",
+                    "=",
+                    "600"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
         }
       ],
-      "events": []
+      "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [],
+      "folded": true,
+      "name": "ZOOM MICROMETRO",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
@@ -1364,11 +2984,60 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btGM",
+                "zoom",
                 "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "hidenct",
+                "=",
+                "30"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "hidenct",
+                "\"\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "2.8",
                 "",
                 ""
               ],
@@ -1377,58 +3046,19 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "CentreCamera"
               },
               "parameters": [
-                "btGM",
-                "=",
-                "1"
+                "",
+                "reguaBaseFundo",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "randomNumber"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "medidaGeradaTXt",
-                    "=",
-                    "VariableString(medidaGerada)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -1438,10 +3068,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "btCorrigir",
+                "reduzir",
                 "",
                 "",
                 ""
@@ -1453,19 +3094,88 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeAnimation"
+                "value": "ZoomCamera"
               },
               "parameters": [
-                "btCorrigir",
+                "",
+                "1",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "fundoQuadro",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "hidenct",
                 "=",
-                "1"
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "hidenct",
+                "\"UX\""
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
-      ]
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "VELOCIADA DO TAMBOR",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -1514,5 +3224,14 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    }
+  ]
 }
