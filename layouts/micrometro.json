@@ -2677,17 +2677,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "VarObjet"
               },
               "parameters": [
@@ -3953,7 +3942,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "POINT 15",
+          "comment": "POINT 15 A",
           "comment2": ""
         },
         {
