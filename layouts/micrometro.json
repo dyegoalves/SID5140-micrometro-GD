@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3499999999999998
+    "zoomFactor": 0.13000000000000056
   },
   "objectsGroups": [
     {
@@ -75,9 +75,9 @@
       "locked": false,
       "name": "fundoQuadro",
       "persistentUuid": "1e739904-10b8-4d7d-bb1b-ffffad7bb4f7",
-      "width": 1900,
-      "x": 19,
-      "y": 8,
+      "width": 1915,
+      "x": 4,
+      "y": 10,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,14 +262,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 551,
+      "height": 600,
       "layer": "",
       "locked": false,
       "name": "arcoMicrometro",
       "persistentUuid": "153dccd5-a69d-49bb-85e2-1f21733b57b4",
-      "width": 721,
-      "x": 101,
-      "y": 446,
+      "width": 827,
+      "x": 138,
+      "y": 439,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,8 +284,8 @@
       "name": "pinoArco",
       "persistentUuid": "05801528-a080-4483-b38b-c1ef5c7d69f1",
       "width": 87,
-      "x": 679,
-      "y": 503,
+      "x": 835,
+      "y": 478,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -299,9 +299,9 @@
       "locked": false,
       "name": "reguaBaseFundo",
       "persistentUuid": "5d3ccc66-c613-423d-847e-0eb97137bc97",
-      "width": 567,
-      "x": 814.2999877929688,
-      "y": 465.5,
+      "width": 590,
+      "x": 927.2999877929688,
+      "y": 448.5,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -316,8 +316,8 @@
       "name": "Tambor",
       "persistentUuid": "ed82874d-7ddc-4bae-867b-cd88cd010306",
       "width": 624,
-      "x": 851.5,
-      "y": 534,
+      "x": 991.5,
+      "y": 519,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,8 +363,8 @@
       "name": "txt025mm",
       "persistentUuid": "d3a638dd-52a2-438c-b6ab-0537f033ca3c",
       "width": 0,
-      "x": 190,
-      "y": 825,
+      "x": 254,
+      "y": 883,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,8 +379,8 @@
       "name": "txt001mm",
       "persistentUuid": "9172b7cd-eddb-4646-8446-65fe10f515cf",
       "width": 0,
-      "x": 636,
-      "y": 825,
+      "x": 756,
+      "y": 879,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -395,8 +395,8 @@
       "name": "r1",
       "persistentUuid": "7550ac6d-189e-42a2-9c9a-c91f19648ddf",
       "width": 152,
-      "x": 854,
-      "y": 34,
+      "x": 994,
+      "y": 17,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -411,8 +411,8 @@
       "name": "r2",
       "persistentUuid": "e477bd9b-92f0-4728-9094-3656962d8126",
       "width": 150,
-      "x": 854,
-      "y": -565.5,
+      "x": 994,
+      "y": -581.5,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,8 +427,8 @@
       "name": "hidenct",
       "persistentUuid": "6164260b-65bd-4974-a0ba-c9a5de530feb",
       "width": 2417,
-      "x": 55,
-      "y": -272,
+      "x": 83,
+      "y": -288,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -443,8 +443,8 @@
       "name": "hidenct",
       "persistentUuid": "626e7027-a8f5-403a-93ce-6986191058bd",
       "width": 1200,
-      "x": 826,
-      "y": 615,
+      "x": 942,
+      "y": 598,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -459,8 +459,8 @@
       "name": "cBot",
       "persistentUuid": "f62cd002-dea6-4350-a783-01e377ea8a0e",
       "width": 105,
-      "x": 803,
-      "y": 592,
+      "x": 938,
+      "y": 574,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -475,8 +475,8 @@
       "name": "cTop",
       "persistentUuid": "dd40642e-c0e4-46ea-9225-24a1b5cb0f08",
       "width": 84,
-      "x": 815,
-      "y": 441,
+      "x": 958,
+      "y": 424,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,25 +491,9 @@
       "name": "hidenct",
       "persistentUuid": "15a4f4ad-2600-4aec-bfea-84e4b4d19b31",
       "width": 443,
-      "x": 2070,
+      "x": 2167,
       "y": 143,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UX",
-      "locked": false,
-      "name": "debug",
-      "persistentUuid": "4016a77c-7be4-446a-9d0f-9335df0286f9",
-      "width": 0,
-      "x": 424,
-      "y": 318,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -523,7 +507,7 @@
       "name": "toqueAvancar",
       "persistentUuid": "ec589b16-1e25-4b08-8c3d-0856cd00982d",
       "width": 1911,
-      "x": 10,
+      "x": 150,
       "y": 1324,
       "zOrder": 25,
       "numberProperties": [],
@@ -571,8 +555,8 @@
       "name": "voltaTambor",
       "persistentUuid": "6bb09929-37b4-401a-b41c-a461236ea0eb",
       "width": 80,
-      "x": 1180,
-      "y": 445,
+      "x": 1211,
+      "y": 436,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,8 +571,8 @@
       "name": "avancarTambor",
       "persistentUuid": "bdf99620-f0ca-463e-82ed-8a283f3855f1",
       "width": 80,
-      "x": 1180,
-      "y": 530,
+      "x": 1300,
+      "y": 513,
       "zOrder": 29,
       "numberProperties": [
         {
@@ -602,14 +586,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 100,
       "layer": "UX",
       "locked": false,
       "name": "reduzir",
       "persistentUuid": "5c99a5a2-2a73-41c4-a7e2-c71953ba49f8",
-      "width": 80,
-      "x": 1083,
-      "y": 909,
+      "width": 100,
+      "x": 1118,
+      "y": 839,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -618,14 +602,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
+      "height": 100,
       "layer": "UX",
       "locked": false,
       "name": "zoom",
       "persistentUuid": "3d10d186-96f0-42d9-ab9e-29022faee3d3",
-      "width": 80,
+      "width": 100,
       "x": 951,
-      "y": 907,
+      "y": 842,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -640,8 +624,8 @@
       "name": "toqueVoltar",
       "persistentUuid": "efd2c897-6ba5-41f8-91f9-7adf393b834a",
       "width": 1970,
-      "x": -37,
-      "y": -639,
+      "x": 103,
+      "y": -673,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -656,7 +640,7 @@
       "name": "ptZoom",
       "persistentUuid": "6b16974d-22fa-4e78-be21-3b15dd5bc7ae",
       "width": 0,
-      "x": 993,
+      "x": 1133,
       "y": 506,
       "zOrder": 34,
       "numberProperties": [],
@@ -666,31 +650,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 68,
+      "height": 55,
       "layer": "",
       "locked": false,
       "name": "pinoTambor",
       "persistentUuid": "5a735fa7-cc4e-42d8-b183-35e99b2f2379",
-      "width": 500,
-      "x": 302,
-      "y": 496,
+      "width": 591,
+      "x": 300,
+      "y": 501,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UX",
-      "locked": false,
-      "name": "vel1x",
-      "persistentUuid": "165732e6-bef1-4010-98ab-cb2e59cbae5e",
-      "width": 0,
-      "x": 1274,
-      "y": 964,
-      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -703,42 +671,10 @@
       "locked": false,
       "name": "txtTituloVelocidadeTambor",
       "persistentUuid": "c051433b-c347-4c5e-b183-2f8719b8daa5",
-      "width": 475,
-      "x": 1273,
-      "y": 907,
+      "width": 301,
+      "x": 1506,
+      "y": 817,
       "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UX",
-      "locked": false,
-      "name": "vel5x",
-      "persistentUuid": "3dd3bc14-2c59-4447-9c5b-fc9779de9d80",
-      "width": 0,
-      "x": 1493,
-      "y": 964,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UX",
-      "locked": false,
-      "name": "mVel",
-      "persistentUuid": "d1169694-c079-4428-8497-f54fdaddf3b1",
-      "width": 0,
-      "x": 1695,
-      "y": 908,
-      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -752,8 +688,8 @@
       "name": "escalaReguaBase",
       "persistentUuid": "80989734-0f09-4052-9362-671901cc539f",
       "width": 490,
-      "x": 842.5,
-      "y": 473.800048828125,
+      "x": 981.7999877929688,
+      "y": 456.800048828125,
       "zOrder": 15,
       "numberProperties": [
         {
@@ -769,6 +705,38 @@
           "value": 0
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "txtTituloMaisZoom",
+      "persistentUuid": "d0377de9-f220-4e99-a268-bacd8ed8f32b",
+      "width": 0,
+      "x": 936,
+      "y": 956,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "txtTituloReduzirZoom",
+      "persistentUuid": "fc6b08e1-e909-4396-b04d-886fe898059a",
+      "width": 0,
+      "x": 1121,
+      "y": 954,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -907,7 +875,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ArcoMicrometro.png",
+                  "image": "ArcoBase.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1223,7 +1191,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Medicao do Micrometro : ",
+      "string": "Medição do Micrômetro : ",
       "font": "",
       "characterSize": 40,
       "color": {
@@ -1417,7 +1385,7 @@
       "behaviors": [],
       "string": "0,01 mm",
       "font": "",
-      "characterSize": 20,
+      "characterSize": 25,
       "color": {
         "b": 255,
         "g": 255,
@@ -1436,7 +1404,7 @@
       "behaviors": [],
       "string": "0 - 25  mm",
       "font": "",
-      "characterSize": 20,
+      "characterSize": 25,
       "color": {
         "b": 255,
         "g": 255,
@@ -1761,7 +1729,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir13.png",
+                  "image": "menosZoom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1790,7 +1758,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir2.png",
+                  "image": "menosZoom22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1807,24 +1775,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btdir1.png",
+                  "image": "menosZoom3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1863,7 +1814,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir13.png",
+                  "image": "maisZoom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1892,7 +1843,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir3.png",
+                  "image": "maisZoom22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1909,24 +1860,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "btdir2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "btdir1.png",
+                  "image": "maisZoom3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2211,6 +2145,44 @@
     {
       "bold": false,
       "italic": false,
+      "name": "txtTituloReduzirZoom",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Reduzir (Zoom)",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "txtTituloMaisZoom",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ampliar (Zoom)",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "txtTituloVelocidadeTambor",
       "smoothed": true,
       "tags": "",
@@ -2218,7 +2190,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Velocidade do Tambor: ",
+      "string": "Configurações",
       "font": "",
       "characterSize": 40,
       "color": {
@@ -2599,7 +2571,7 @@
                 "Tambor",
                 "medicaoTamborVal",
                 "=",
-                "(Tambor.X() - 851.5)/Tambor.Variable(divDesvio)"
+                "(Tambor.X() - 991.5)/Tambor.Variable(divDesvio)"
               ],
               "subInstructions": []
             },
@@ -2708,38 +2680,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "r"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ToggleObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Tambor",
-                "livre"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -2761,136 +2701,6 @@
                 "<=",
                 "25.5"
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Tambor",
-                "livre",
-                "False"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "avancarTambor",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "movTambor",
-                "Tambor.Variable(velTambor)",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "r1",
-                "0",
-                "Tambor.Variable(velRegua)",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "r2",
-                "0",
-                "Tambor.Variable(velRegua)",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "avancarTambor",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Tambor",
-                "medicaoTamborVal",
-                "<=",
-                "27.5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Tambor",
-                "livre",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -4013,17 +3823,6 @@
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 1702453580,
-      "ambientLightColorG": 6024528,
-      "ambientLightColorR": -2147483632,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "CC",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
     {
       "ambientLightColorB": 0,
       "ambientLightColorG": 0,

@@ -121,15 +121,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ArcoMicrometro.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ArcoMicrometro.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "PinoArco.png",
         "kind": "image",
         "metadata": "",
@@ -271,6 +262,69 @@
         "name": "FundoReguaBase.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "maisZoom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maisZoom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "maisZoom3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maisZoom3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "maisZoom22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maisZoom22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menosZoom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menosZoom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menosZoom3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menosZoom3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menosZoom22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menosZoom22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArcoBase.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArcoBase.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
