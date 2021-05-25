@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.22999999999999965
+    "zoomFactor": 0.3499999999999998
   },
   "objectsGroups": [
     {
@@ -286,7 +286,7 @@
       "width": 87,
       "x": 679,
       "y": 503,
-      "zOrder": 14,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -340,7 +340,7 @@
         {
           "name": "divDesvio",
           "type": "number",
-          "value": 19.95
+          "value": 19.955
         },
         {
           "name": "medicaoTamborVal",
@@ -365,7 +365,7 @@
       "width": 0,
       "x": 190,
       "y": 825,
-      "zOrder": 16,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -381,7 +381,7 @@
       "width": 0,
       "x": 636,
       "y": 825,
-      "zOrder": 17,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -443,8 +443,8 @@
       "name": "hidenct",
       "persistentUuid": "626e7027-a8f5-403a-93ce-6986191058bd",
       "width": 1200,
-      "x": 846,
-      "y": 613,
+      "x": 826,
+      "y": 615,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,7 +491,7 @@
       "name": "hidenct",
       "persistentUuid": "15a4f4ad-2600-4aec-bfea-84e4b4d19b31",
       "width": 443,
-      "x": 1987,
+      "x": 2070,
       "y": 143,
       "zOrder": 0,
       "numberProperties": [],
@@ -571,8 +571,8 @@
       "name": "voltaTambor",
       "persistentUuid": "6bb09929-37b4-401a-b41c-a461236ea0eb",
       "width": 80,
-      "x": 1170,
-      "y": 444,
+      "x": 1180,
+      "y": 445,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,10 +587,15 @@
       "name": "avancarTambor",
       "persistentUuid": "bdf99620-f0ca-463e-82ed-8a283f3855f1",
       "width": 80,
-      "x": 1170,
-      "y": 531,
+      "x": 1180,
+      "y": 530,
       "zOrder": 29,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -1312,7 +1317,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "FundoReguaBase",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2349,7 +2354,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "ANIMACAO DOS BOTOES E ACOES",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2677,19 +2682,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Tambor",
-                "medicaoTamborVal",
-                "<=",
-                "25"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -2697,6 +2689,19 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                "<=",
+                "25.5"
               ],
               "subInstructions": []
             },
@@ -2806,7 +2811,7 @@
                 "Tambor",
                 "medicaoTamborVal",
                 "<=",
-                "25"
+                "27.5"
               ],
               "subInstructions": []
             },
@@ -3367,337 +3372,6 @@
                 }
               ],
               "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "ESCALA REGUA",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "500"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "500"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "1.30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "518"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "518"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "3.30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "524"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "524"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "4.30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "526"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "526"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "7.30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "528"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "528"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Tambor",
-                    "medicaoTamborVal",
-                    ">",
-                    "9.30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "=",
-                    "530"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "escalaReguaBase",
-                    "tamEscala",
-                    "=",
-                    "530"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug",
-                    "=",
-                    "escalaReguaBase.VariableString(tamEscala)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
             }
           ],
           "parameters": []
@@ -3711,7 +3385,330 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
+      "name": "ESCALA REGUA",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "1.30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "518"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "518"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "3.30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "524"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "524"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "4.30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "526"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "526"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "7.30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "528"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "528"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Tambor",
+                "medicaoTamborVal",
+                ">",
+                "9.30"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "=",
+                "530"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "escalaReguaBase",
+                "tamEscala",
+                "=",
+                "530"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "debug",
+                "=",
+                "escalaReguaBase.VariableString(tamEscala)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
       "name": "ZOOM MICROMETRO",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3942,7 +3939,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "POINT 22 B",
+          "comment": "POINT 25 B",
           "comment2": ""
         },
         {
