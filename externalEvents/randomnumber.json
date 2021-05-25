@@ -15,7 +15,7 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::JsCode",
-      "inlineCode": "//Testa se for zero nao passa\nvar res = generateNumberRandom(0, 25.5)\nif (res == 0) {\n    res = generateNumberRandom(0, 25.5)\n}\n\n//Funcao Gera numero inteiros ou floats \nfunction generateNumberRandom(min, max) {\n        var res = min + Math.random() * (max - min);\n        return res.toFixed(2)\n}\n\n//Seta Valor na variavel medida gerada\nruntimeScene.getVariables().get(\"medidaGerada\").setValue(res);\n\n/*function generateNumberRandom(min, max) {\n    if (Math.random() < 0.5 ? 0 : 1 == 1) {\n        var res = min + Math.random() * (max - min);\n        return res.toFixed(2)\n    } else {\n        return Math.floor(Math.random() * (max - min + 1)) + min;\n    }\n}*/",
+      "inlineCode": "//Testa se for zero nao passa\nvar res = generateNumberRandom(0, 25.1)\n\nif (res == 0) {\n    res = generateNumberRandom(0, 25.1)\n}\n\nif (res > 25) {\n    res = generateNumberRandom(0, 25.1)\n}\n\n//Funcao Gera numero inteiros ou floats \nfunction generateNumberRandom(min, max) {\n        var res = min + Math.random() * (max - min);\n        return res.toFixed(2)\n}\n\n//Seta Valor na variavel medida gerada\nruntimeScene.getVariables().get(\"medidaGerada\").setValue(res);\n\n/*function generateNumberRandom(min, max) {\n    if (Math.random() < 0.5 ? 0 : 1 == 1) {\n        var res = min + Math.random() * (max - min);\n        return res.toFixed(2)\n    } else {\n        return Math.floor(Math.random() * (max - min + 1)) + min;\n    }\n}*/",
       "parameterObjects": "",
       "useStrict": true,
       "eventsSheetExpanded": true

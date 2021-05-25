@@ -139,15 +139,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Tambor3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tambor3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-1.png",
         "kind": "image",
         "metadata": "",
@@ -179,24 +170,6 @@
         "kind": "image",
         "metadata": "",
         "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "r1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "r1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "r2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "r2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -251,6 +224,96 @@
         "kind": "image",
         "metadata": "",
         "name": "image202.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "r1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "r2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PinoTambor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PinoTambor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "escala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "escala.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cbot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cbot.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ctop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ctop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "escala-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "escala-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambor3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "escala-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "escala-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FundoReguaBase.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FundoReguaBase.png",
         "smoothed": true,
         "userAdded": true
       }
