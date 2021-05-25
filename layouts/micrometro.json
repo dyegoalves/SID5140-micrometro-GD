@@ -3245,7 +3245,7 @@
                     "Tambor",
                     "medicaoTamborVal",
                     ">",
-                    "9.30"
+                    "7.\n30"
                   ],
                   "subInstructions": []
                 }
@@ -3273,6 +3273,54 @@
                     "tamEscala",
                     "=",
                     "528"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Tambor",
+                    "medicaoTamborVal",
+                    ">",
+                    "9.30"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "escalaReguaBase",
+                    "=",
+                    "530"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "escalaReguaBase",
+                    "tamEscala",
+                    "=",
+                    "530"
                   ],
                   "subInstructions": []
                 }
