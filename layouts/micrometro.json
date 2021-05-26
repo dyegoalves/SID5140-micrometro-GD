@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.13000000000000056
+    "zoomFactor": 0.31000000000000066
   },
   "objectsGroups": [
     {
@@ -70,14 +70,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1060,
+      "height": 1076,
       "layer": "FD",
       "locked": false,
       "name": "fundoQuadro",
       "persistentUuid": "1e739904-10b8-4d7d-bb1b-ffffad7bb4f7",
       "width": 1915,
       "x": 4,
-      "y": 10,
+      "y": 2,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,7 +201,7 @@
       "height": 0,
       "layer": "UX",
       "locked": false,
-      "name": "acertosErrosTxt",
+      "name": "QuantidadesTxt",
       "persistentUuid": "34d4ea33-6900-432a-a49f-c32c88730f4e",
       "width": 0,
       "x": 1540,
@@ -340,7 +340,7 @@
         {
           "name": "divDesvio",
           "type": "number",
-          "value": 19.955
+          "value": 19.92555
         },
         {
           "name": "medicaoTamborVal",
@@ -351,6 +351,16 @@
           "name": "livre",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "acertoQtd",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "erroQtd",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -666,22 +676,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 44,
-      "layer": "UX",
-      "locked": false,
-      "name": "txtTituloVelocidadeTambor",
-      "persistentUuid": "c051433b-c347-4c5e-b183-2f8719b8daa5",
-      "width": 301,
-      "x": 1506,
-      "y": 817,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 90,
       "layer": "",
       "locked": false,
@@ -737,6 +731,65 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "acertoVal",
+      "persistentUuid": "59d8dcdb-c014-40d7-8ab0-4b3c3cc70df7",
+      "width": 0,
+      "x": 1703,
+      "y": 136,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "erroVal",
+      "persistentUuid": "819f3a01-4cf3-498c-b4ab-f566a35caf0c",
+      "width": 0,
+      "x": 1703,
+      "y": 193,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "alertMsg",
+      "persistentUuid": "a2e3b4c6-d4f2-4d75-9a23-919345c5667c",
+      "width": 0,
+      "x": 10,
+      "y": 1151,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "pox",
+          "type": "number",
+          "value": 141
+        },
+        {
+          "name": "poy",
+          "type": "number",
+          "value": 320
+        }
+      ]
     }
   ],
   "objects": [
@@ -991,7 +1044,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Gerar medida",
+      "string": "Gerar a medida",
       "font": "",
       "characterSize": 35,
       "color": {
@@ -1095,7 +1148,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Corrigir",
+      "string": "Correção",
       "font": "",
       "characterSize": 35,
       "color": {
@@ -1203,7 +1256,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "medicaoVal",
+      "name": "erroVal",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -1211,6 +1264,44 @@
       "variables": [],
       "behaviors": [],
       "string": "0",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "acertoVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 155,
+        "g": 155,
+        "r": 155
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "medicaoVal",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "",
       "font": "",
       "characterSize": 40,
       "color": {
@@ -1260,7 +1351,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "acertosErrosTxt",
+      "name": "QuantidadesTxt",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -1615,25 +1706,6 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "debug",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "",
-      "characterSize": 45,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
       "name": "toqueVoltar",
       "tags": "",
       "type": "Sprite",
@@ -1843,7 +1915,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "maisZoom22.png",
+                  "image": "maisZoom3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1860,7 +1932,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "maisZoom3.png",
+                  "image": "maisZoom22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2086,63 +2158,6 @@
       ]
     },
     {
-      "bold": true,
-      "italic": false,
-      "name": "vel10x",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "10x - Rápida",
-      "font": "",
-      "characterSize": 25,
-      "color": {
-        "b": 155,
-        "g": 155,
-        "r": 155
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "vel5x",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "5x - Rápida",
-      "font": "",
-      "characterSize": 25,
-      "color": {
-        "b": 155,
-        "g": 155,
-        "r": 155
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "vel1x",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "1x - Normal",
-      "font": "",
-      "characterSize": 25,
-      "color": {
-        "b": 155,
-        "g": 155,
-        "r": 155
-      }
-    },
-    {
       "bold": false,
       "italic": false,
       "name": "txtTituloReduzirZoom",
@@ -2174,44 +2189,6 @@
       "string": "Ampliar (Zoom)",
       "font": "",
       "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "txtTituloVelocidadeTambor",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Configurações",
-      "font": "",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "mVel",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "1X",
-      "font": "",
-      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -2317,6 +2294,25 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "alertMsg",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Favor Gere a medida, para realizar a Correção! ",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -2331,6 +2327,21 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "START DAS ANIMACOES",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2411,6 +2422,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "COMPARACAO DE MEDIDA CERTA E ERRADA",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -2522,6 +2548,14 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -2538,7 +2572,203 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "medidaGeradaTXt",
+                        "<",
+                        "\"0\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "alertMsg",
+                        "=",
+                        "alertMsg.Variable(pox)",
+                        "=",
+                        "alertMsg.Variable(poy)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::Opacity"
+                      },
+                      "parameters": [
+                        "alertMsg",
+                        "=",
+                        "RandomInRange(150,255)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "medidaGeradaTXt",
+                        "<",
+                        "\"0\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "alertMsg"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "medicaoVal",
+                            "=",
+                            "medidaGeradaTXt.String()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Tambor",
+                            "acertoQtd",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "acertoVal",
+                                "=",
+                                "Tambor.VariableString(acertoQtd)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "medicaoVal",
+                            "=",
+                            "medidaGeradaTXt.String()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Tambor",
+                            "erroQtd",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "erroVal",
+                                "=",
+                                "Tambor.VariableString(erroQtd)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -2551,7 +2781,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "MEDICAO DO TAMBOR",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2677,6 +2907,17 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -2883,7 +3124,7 @@
               "parameters": [
                 "medicaoVal",
                 "=",
-                "\"0\""
+                "\"0.00\""
               ],
               "subInstructions": []
             }
@@ -3548,20 +3789,7 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "debug",
-                    "=",
-                    "escalaReguaBase.VariableString(tamEscala)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             }
           ],
@@ -3581,6 +3809,21 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "ANIMACAO E ACAO DOS BOTOES AMPLIAR E REDUZIR",
+          "comment2": ""
+        },
         {
           "disabled": false,
           "folded": false,
@@ -3783,43 +4026,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "VELOCIADA DO TAMBOR",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "OK CALIBRADO",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -3863,7 +4069,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "FD",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
