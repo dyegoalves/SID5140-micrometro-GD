@@ -355,33 +355,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "btVoltarF.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "btVoltarF.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "btVoltar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "btVoltar.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "btVoltarF2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "btVoltarF2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "btVoltarF3.png",
         "kind": "image",
         "metadata": "",
