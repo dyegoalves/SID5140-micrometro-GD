@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.21000000000000063
+    "zoomFactor": 0.37
   },
   "objectsGroups": [
     {
@@ -602,8 +602,8 @@
       "name": "reduzir",
       "persistentUuid": "5c99a5a2-2a73-41c4-a7e2-c71953ba49f8",
       "width": 100,
-      "x": 1118,
-      "y": 839,
+      "x": 1562,
+      "y": 874,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -618,8 +618,8 @@
       "name": "zoom",
       "persistentUuid": "3d10d186-96f0-42d9-ab9e-29022faee3d3",
       "width": 100,
-      "x": 951,
-      "y": 842,
+      "x": 1397,
+      "y": 877,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -709,8 +709,8 @@
       "name": "txtTituloMaisZoom",
       "persistentUuid": "d0377de9-f220-4e99-a268-bacd8ed8f32b",
       "width": 0,
-      "x": 936,
-      "y": 956,
+      "x": 1382,
+      "y": 989,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -725,8 +725,8 @@
       "name": "txtTituloReduzirZoom",
       "persistentUuid": "fc6b08e1-e909-4396-b04d-886fe898059a",
       "width": 0,
-      "x": 1121,
-      "y": 954,
+      "x": 1557,
+      "y": 989,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -790,6 +790,38 @@
           "value": 320
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 100,
+      "layer": "UX",
+      "locked": false,
+      "name": "btAjuda",
+      "persistentUuid": "92c2343a-acd3-4fbc-9fb1-1af347cd5fc9",
+      "width": 100,
+      "x": 1733,
+      "y": 874,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UX",
+      "locked": false,
+      "name": "ajudaTxt",
+      "persistentUuid": "c4c5fbe2-9267-4d91-95a6-6b2dcd1f841d",
+      "width": 0,
+      "x": 1750,
+      "y": 989,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1044,7 +1076,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Gerar a medida",
+      "string": "Gerar medida",
       "font": "",
       "characterSize": 35,
       "color": {
@@ -1244,7 +1276,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Medição do Micrômetro : ",
+      "string": "Medição do Micrômetro: ",
       "font": "",
       "characterSize": 40,
       "color": {
@@ -1320,7 +1352,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Encontre a medida :",
+      "string": "Encontre a medida:",
       "font": "",
       "characterSize": 40,
       "color": {
@@ -1915,7 +1947,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "maisZoom3.png",
+                  "image": "maisZoom22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1932,7 +1964,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "maisZoom22.png",
+                  "image": "maisZoom3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2305,7 +2337,111 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Favor Gere a medida, para realizar a Correção! ",
+      "string": "Favor gere a medida, para realizar a Correção! ",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "btAjuda",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ajuda1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ajuda1f.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ajuda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "ajudaTxt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ajuda",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -2781,7 +2917,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "MEDICAO DO TAMBOR",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3852,7 +3988,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ZOOM MICROMETRO",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4071,6 +4207,109 @@
           "conditions": [],
           "actions": [],
           "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "MUDA CENA PARA AJUDA",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btAjuda",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btAjuda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btAjuda",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ajuda\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "parameters": []

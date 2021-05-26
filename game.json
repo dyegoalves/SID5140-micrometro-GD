@@ -325,6 +325,87 @@
         "name": "ArcoBase.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ajuda1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ajuda1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ajuda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ajuda.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ajuda1f.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ajuda1f.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltarF.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltarF.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltarF2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltarF2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltarF3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltarF3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltar2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "btVoltarF4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "btVoltarF4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -336,6 +417,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/micrometro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ajuda"
     }
   ],
   "externalEvents": [
