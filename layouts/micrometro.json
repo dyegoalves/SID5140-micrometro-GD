@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.31000000000000066
+    "zoomFactor": 0.21000000000000063
   },
   "objectsGroups": [
     {
@@ -340,7 +340,7 @@
         {
           "name": "divDesvio",
           "type": "number",
-          "value": 19.92555
+          "value": 19.945
         },
         {
           "name": "medicaoTamborVal",
@@ -2322,7 +2322,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "ANIMACAO DOS BOTOES E ACOES",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2781,7 +2781,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "MEDICAO DO TAMBOR",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3606,6 +3606,54 @@
                     "Tambor",
                     "medicaoTamborVal",
                     ">",
+                    "2.80"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "escalaReguaBase",
+                    "=",
+                    "522"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "escalaReguaBase",
+                    "tamEscala",
+                    "=",
+                    "522"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Tambor",
+                    "medicaoTamborVal",
+                    ">",
                     "3.30"
                   ],
                   "subInstructions": []
@@ -3750,7 +3798,7 @@
                     "Tambor",
                     "medicaoTamborVal",
                     ">",
-                    "9.30"
+                    "9.80"
                   ],
                   "subInstructions": []
                 }
