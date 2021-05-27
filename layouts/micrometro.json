@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.37
+    "zoomFactor": 0.3500000000000003
   },
   "objectsGroups": [
     {
@@ -317,7 +317,7 @@
       "persistentUuid": "ed82874d-7ddc-4bae-867b-cd88cd010306",
       "width": 624,
       "x": 991.5,
-      "y": 519,
+      "y": 517,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -438,7 +438,7 @@
       "persistentUuid": "6164260b-65bd-4974-a0ba-c9a5de530feb",
       "width": 2417,
       "x": 83,
-      "y": -288,
+      "y": -289,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -454,7 +454,7 @@
       "persistentUuid": "626e7027-a8f5-403a-93ce-6986191058bd",
       "width": 1200,
       "x": 942,
-      "y": 598,
+      "y": 597,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -469,7 +469,7 @@
       "name": "cBot",
       "persistentUuid": "f62cd002-dea6-4350-a783-01e377ea8a0e",
       "width": 105,
-      "x": 938,
+      "x": 943,
       "y": 574,
       "zOrder": 20,
       "numberProperties": [],
@@ -485,7 +485,7 @@
       "name": "cTop",
       "persistentUuid": "dd40642e-c0e4-46ea-9225-24a1b5cb0f08",
       "width": 84,
-      "x": 958,
+      "x": 955,
       "y": 424,
       "zOrder": 20,
       "numberProperties": [],
@@ -951,16 +951,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "ArcoBase",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ArcoBase.png",
+                  "image": "ArcoBase-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2459,7 +2459,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
-      "name": "ANIMACAO DOS BOTOES E ACOES",
+      "name": "ANIMACAO DOS BOTOES E COMPARACAO DAS MEDICOES",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -4217,7 +4217,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "MUDA CENA PARA AJUDA",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4356,7 +4356,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "FD",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

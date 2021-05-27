@@ -379,6 +379,15 @@
         "name": "btVoltarF4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArcoBase-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArcoBase-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
