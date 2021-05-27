@@ -4356,7 +4356,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "FD",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }

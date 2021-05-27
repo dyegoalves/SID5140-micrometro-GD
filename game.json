@@ -319,15 +319,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "ArcoBase.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ArcoBase.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "ajuda1.png",
         "kind": "image",
         "metadata": "",
