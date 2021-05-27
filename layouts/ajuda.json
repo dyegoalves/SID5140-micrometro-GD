@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.4199999999999997
+    "zoomFactor": 0.78
   },
   "objectsGroups": [],
   "variables": [],
@@ -282,7 +282,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "1.1 - Para iniciar a medição existem 2 botões de Giro de medição do tambor, o botão seta pra cima faz que o tambor volte o giro e o botão seta pra baixo faz com que o tambor avance com o giro de medição.\n\n1.2 - Todo o resultado numérico da medição será mostrado no topo superior dentro campo “Medição do Micrômetro”.\n\n1.3 - Utilize sempre as regras de medição do micrômetro ou peça ajuda do professor caso for necessário.\n\n",
+      "string": "1.1 - Para iniciar a medição existem 2 botões de Giro de medição do tambor, o botão seta pra cima faz que o tambor volte o giro e o botão seta pra baixo faz com que o tambor avance com o giro de medição.\n\n1.2 - Todo o resultado numérico da medição será mostrado no topo superior dentro campo \"Medição do Micrômetro\".\n\n1.3 - Utilize sempre as regras de medição do micrômetro ou peça ajuda do professor caso for necessário.\n\n",
       "font": "",
       "characterSize": 25,
       "color": {
