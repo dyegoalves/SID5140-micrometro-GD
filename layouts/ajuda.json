@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.78
+    "zoomFactor": 0.6199999999999999
   },
   "objectsGroups": [],
   "variables": [],
@@ -282,7 +282,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "1.1 - Para iniciar a medição existem 2 botões de Giro de medição do tambor, o botão seta pra cima faz que o tambor volte o giro e o botão seta pra baixo faz com que o tambor avance com o giro de medição.\n\n1.2 - Todo o resultado numérico da medição será mostrado no topo superior dentro campo \"Medição do Micrômetro\".\n\n1.3 - Utilize sempre as regras de medição do micrômetro ou peça ajuda do professor caso for necessário.\n\n",
+      "string": "1.1. Para executar essa função, utilize o botão (seta para cima) para que o tambor volte o giro. Para que o tambor avance, utilize o botão (seta pra baixo).\n\n1.2. Todo o resultado numérico da medição será mostrado no topo superior dentro do campo “Medição do Micrômetro”.\n\n1.3. Utilize sempre as regras de medição do micrômetro ou peça ajuda do professor caso seja necessário.\n\n",
       "font": "",
       "characterSize": 25,
       "color": {
@@ -320,7 +320,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "2.1 - O botão Gerar medida, serve para gerar uma medida aleatória dentro do campo \"Encontre a medida\", onde está será usada como parâmetro de comparação para a medição realizada com Micrômetro;  \n\n2.2 - O botão Correção, serve para corrigir a Medição dos Giros do Tambor e o valor do campo Encontre a medida, caso os resultados numéricos forem iguais serão computados como Acertos, caso contrário serão computados como Erros, pratique o quanto quiser\n",
+      "string": "2.1. O botão Gerar medida, serve para gerar uma medida aleatória dentro do campo \"Encontre a medida\". Esta será usada como parâmetro de comparação para a medição realizada com Micrômetro;\n\n2.2. O botão Correção, serve para corrigir a medição dos giros do tambor e o valor do campo “Encontre a medida”. Se os resultados numéricos forem iguais, serão computados como Acertos, caso contrário serão computados como Erros. Pratique o quanto quiser.",
       "font": "",
       "characterSize": 25,
       "color": {
@@ -339,7 +339,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "3 - Botões de Ampliar Zoom, Reduzir Zoom  e Ajuda",
+      "string": "3 - Botões de Ampliar Zoom, Reduzir Zoom e Ajuda",
       "font": "",
       "characterSize": 35,
       "color": {
@@ -358,7 +358,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "3.1 - O botão Ampliar zoom, serve para dar um zoom maior no Tambor de medição e nas réguas do Micrômetro, fazendo o usuário aplicar uma maior precisão na sua utilização. \n\n3.2 - O botão Reduzir zoom, serve para reduzir o zoom do Tambor de Medição e das réguas\n\n3.3 - O botão Ajuda, serve para acessar a página de ajuda, neste está descritos todos os procedimentos uso deste Micômetro.\n\n",
+      "string": "3.1. O botão Ampliar Zoom permite ampliar a imagem do Tambor de medição e as Réguas do Micrômetro, permitindo ao usuário aplicar uma maior precisão na sua utilização.\n\n3.2. Utilize o botão Reduzir zoom para reduzir o zoom do Tambor de medição e das Réguas\n\n3.3. Em Ajuda, você pode acessar ao tutorial desta ferramenta, onde estão descritos todos os procedimentos de uso.\n\n",
       "font": "",
       "characterSize": 25,
       "color": {

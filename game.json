@@ -379,6 +379,15 @@
         "name": "ArcoBase-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ArcoMicrometro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArcoMicrometro.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
